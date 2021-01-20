@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Memorial Designer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <script src=”https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.2/fabric.min.js”></script>
+    </head>
+    <body>
+        <h1>Memorial Designer</h1>
+                <canvas id="canvas" width="800" height="500">Contact us for help with Memorial Designer</canvas>
+               <form>
+                   <h3>Purchaser Information</h3>
+                   <label>email: </label> <input type="email" required />
+                   <label>First Name: </label><input type="text" name="fname"/>
+                   <label>Last Name: </label><input type="text" name="lname"/>
+                   <label>Questions / Comments: </label>
+                   <br> <textarea rows="5" cols="50" name="msg"></textarea>
+                   <button id="submit">Submit</button>
+               </form>
+                <div id="ctrls">
+                   <button id="text">Text</button>
+                   <select id="type">
+                       <option>-Select Stone Type-</option>
+                       <option>Upright Memorial</option>
+                       <option>Pillow Marker</option>
+                       <option>Flat Marker</option>
+                       <option>Hickey/Sloped Memorial</option>
+                   </select>
+                   <checkbox>
+                       
+                   </checkbox>
+                   </div>
+         
+                   
+        <script src="./fabric.js" async defer></script>
+        <script src="./design.js" async defer></script>
+    </body>
+</html>
